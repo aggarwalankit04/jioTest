@@ -1,0 +1,24 @@
+{
+  "name": "jio-test-parkinglot",
+  "version": "1.0.0",
+  "description": "",
+  "main": " index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "ankitaggarwal",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "config": "^3.3.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.11",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "bcryptjs": "^2.4.3",
+    "validator": "^10.11.0"
+  }
+}

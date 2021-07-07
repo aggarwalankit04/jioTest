@@ -1,0 +1,18 @@
+{
+    "localMongodb": {
+      "url": "mongodb://",
+      "username":"",
+      "password":"",
+      "serverUrl":"localhost",
+      "port":"27017",
+      "databaseName":"jio_parkinglot"
+    },
+    "secret": "secret_key",
+    "tokenExpires": 2000,
+    "superSecret": "gOROfWnARLrbodzhKALrkTd1XTGTa6L3cuCAVKoohR2IishKtMvtZYliAhKpP7D",
+    "port": 3000,
+    "JWT_EXPIRES_IN":"90d",
+    "JWT_COOKIE_EXPIRES_IN":90,
+    "NODE_ENV":"development"
+  }
+  
