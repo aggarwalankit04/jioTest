@@ -1,0 +1,155 @@
+{
+	"info": {
+		"_postman_id": "602ce6e6-defa-48af-981d-d3622b702229",
+		"name": "ParkingLotProblem",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/parkinglotProblem/api/v1/totalparkingslot",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"uniqueId\":\"jio2_parkinglot\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/parkinglotProblem/api/v1/totalparkingslot",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"parkinglotProblem",
+						"api",
+						"v1",
+						"totalparkingslot"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/parkinglotProblem/api/v1/createlparkingslot",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"uniqueId\": \"jio4_parkinglot\",\r\n    \"totalParkingSlot\":1800\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/parkinglotProblem/api/v1/createlparkingslot",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"parkinglotProblem",
+						"api",
+						"v1",
+						"createlparkingslot"
+					]
+				},
+				"description": "create parking slot"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/parkinglotProblem/api/v1/totalparkingslot/calculate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"uniqueId\":\"jio_parkinglot\",\r\n\"noOfCars_EnterIn_ReservedParking\": 5,\r\n\"noOfCars_EnterIn_NonReservedParking\": 0,\r\n\"noOfCars_removedFrom_ReservedParking\":  0,\r\n\"noOfCars_removedFrom_NonReservedParking\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/parkinglotProblem/api/v1/totalparkingslot/calculate",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"parkinglotProblem",
+						"api",
+						"v1",
+						"totalparkingslot",
+						"calculate"
+					]
+				},
+				"description": "caluclation for assignment of first come fist basis parking slot"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/parkinglotProblem/api/v1/signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"ankit\",\r\n    \"email\":\"agga@gmail.com\",\r\n    \"password\":\"ankit1234\",\r\n    \"passwordConfirm\":\"ankit1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/parkinglotProblem/api/v1/signup",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"parkinglotProblem",
+						"api",
+						"v1",
+						"signup"
+					]
+				},
+				"description": "sign up for user"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/parkinglotProblem/api/v1/userCount",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/parkinglotProblem/api/v1/userCount",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"parkinglotProblem",
+						"api",
+						"v1",
+						"userCount"
+					]
+				},
+				"description": "Get total number of active registered users"
+			},
+			"response": []
+		}
+	]
+}
